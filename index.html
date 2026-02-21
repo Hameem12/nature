@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind css and daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Sora Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <!-- Font Awsome -->
+    <script src="https://kit.fontawesome.com/d1a3a9cf2c.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            font-family: 'Sora', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="bg-base-100 border-b-[1px] border-green-900 md:border-b-0
+        md:mx-20 lg:mx-24">
+            <div class="hidden md:flex justify-between items-center mt-4">
+                <a><img src="./assets/logo-header.png" alt=""></a>
+                <div>
+                    <ul class="flex flex-row gap-3">
+                        <li>Product</li>
+                        <li>Services</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="flex items-center gap-3">
+                    <i class="fa-brands fa-searchengin fa-lg text-gray-600 cursor-pointer"></i>
+                    <i class="fa-solid fa-cart-shopping fa-lg text-gray-600 cursor-pointer "></i>
+                    <button class="btn btn-outline btn-success !text-black border-green-600">Login</button>
+                    <button class="btn btn-outline btn-success bg-green-500 !text-white">Register</button>
+                </div>
+            </div>
+            <div class="flex w-full justify-between items-center md:hidden">
+                <a><img src="./assets/logo-header.png" alt=""></a>
+                <div class="flex-none">
+                    <button class="btn btn-square btn-ghost">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            class="inline-block h-5 w-5 stroke-current">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+</body>
+
+</html>
