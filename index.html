@@ -32,20 +32,32 @@
                 <a><img src="./assets/logo-header.png" alt=""></a>
                 <div>
                     <ul class="flex flex-row gap-3">
-                        <li>Product</li>
-                        <li>Services</li>
-                        <li>Contact Us</li>
+                        <li class="cursor-pointer">Product</li>
+                        <li class="cursor-pointer">Services</li>
+                        <li class="cursor-pointer">Contact Us</li>
                     </ul>
                 </div>
                 <div class="flex items-center gap-3">
                     <i class="fa-brands fa-searchengin fa-lg text-gray-600 cursor-pointer"></i>
                     <i class="fa-solid fa-cart-shopping fa-lg text-gray-600 cursor-pointer "></i>
-                    <button class="btn btn-outline btn-success !text-black border-green-600">Login</button>
-                    <button class="btn btn-outline btn-success bg-green-500 !text-white">Register</button>
+                    <label for="my_modal_6"
+                        class="btn btn-outline btn-success !text-black border-green-600">Login</label>
+                    <label for="my_modal_6"
+                        class="btn btn-outline btn-success bg-green-500 !text-white">Register</label>
+                    <input type="checkbox" id="my_modal_6" class="modal-toggle" />
+                    <div class="modal" role="dialog">
+                        <div class="modal-box">
+                            <h3 class="text-lg font-bold">SORRY!</h3>
+                            <p class="py-4">This function is yet to be implemented!</p>
+                            <div class="modal-action">
+                                <label for="my_modal_6" class="btn">Close!</label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="flex w-full justify-between items-center md:hidden">
-                <a><img src="./assets/logo-header.png" alt=""></a>
+                <img src="./assets/logo-header.png" alt="">
                 <div class="flex-none">
                     <button class="btn btn-square btn-ghost">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
