@@ -1,12 +1,8 @@
 // tailwind.config.js
 module.exports = {
-  darkMode: false, // or 'media' or 'class' – set to false to turn it off
-  theme: {
-    extend: {
-      colors: {
-        'custom-green': '#179800',
-      },
-    },
+  darkMode: false, // completely disable dark mode
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["light"], // only use light theme
   },
-  plugins: [],
 }
